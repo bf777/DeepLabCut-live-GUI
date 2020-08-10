@@ -11,6 +11,7 @@ import platform
 from dlclivegui.camera.camera import Camera, CameraError
 from dlclivegui.camera.opencv import OpenCVCam
 from dlclivegui.camera.mac_opencv import Mac_OpenCVCam
+from dlclivegui.camera.sentech_usb import SentechCam
 
 if platform.system() == "Windows":
     from dlclivegui.camera.tiscamera_windows import TISCam
